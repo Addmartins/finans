@@ -1,0 +1,42 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+#home {
+	background: #ffc107;
+	color: white;
+}
+
+.caixa {
+	padding: 60px 0;
+	border-bottom: 1px solid #e5e5e5;
+}
+footer {
+	margin-bottom: 0;
+}
+
+footer p a {
+	margin: 5px 15px;
+	text-decoration: none;
+}
+
+footer p a:hover {
+	text-decoration: underline;
+}
+
+#rodape {
+	border-top: 1px solid #e5e5e5;
+	background: #dca604;
+}
+#rodape p {
+	margin: 0;
+}
+
+@media (min-width: 500px){
+
+#nav-principal {
+	justify-content: end;
+}
+
+}
